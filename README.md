@@ -1,6 +1,6 @@
-# 🌍 Fuel & Carbon Emission Tracking System
+🌍 Fuel & Carbon Emission Tracking System
 
-## 📌 Description du projet
+📌 Description du projet
 
 Ce projet est une plateforme intelligente de **suivi de consommation de carburant et d’émissions de carbone** pour les compagnies aériennes et les systèmes de transport.
 
@@ -15,9 +15,9 @@ L’application permet de :
 
 ---
 
-## 🚀 Fonctionnalités principales
+ 🚀 Fonctionnalités principales
 
-### 📊 Data & Analytics
+ 📊 Data & Analytics
 
 * Import de fichiers (Excel / CSV / PDF)
 * Scraping automatique de données de fuel
@@ -25,13 +25,13 @@ L’application permet de :
 * Calcul des émissions carbone (CO₂)
 * Historique des vols et consommation
 
-### 🔔 Temps réel
+ 🔔 Temps réel
 
 * Notifications en temps réel selon secteur client
 * Alertes sur consommation anormale
 * Système d’événements live (WebSocket)
 
-### 👥 Gestion utilisateurs
+ 👥 Gestion utilisateurs
 
 * Authentification sécurisée (JWT)
 * Rôles utilisateurs :
@@ -41,7 +41,7 @@ L’application permet de :
   * Opérateur Fuel
   * Responsable environnement
 
-### 📈 Dashboard
+📈 Dashboard
 
 * Statistiques de consommation
 * Graphiques d’émissions carbone
@@ -50,7 +50,7 @@ L’application permet de :
 
 ---
 
-## 🏗️ Architecture globale
+🏗️ Architecture globale
 
 ```
 Frontend (React)
@@ -68,22 +68,22 @@ DevOps Layer (Docker + Jenkins + Kubernetes + Monitoring)
 
 ---
 
-## 🧰 Technologies utilisées
+ 🧰 Technologies utilisées
 
-### Frontend
+Frontend
 
 * ⚛️ React
 
-### Backend
+ Backend
 
 * 🟢 Node.js
 * 🐍 Python (scraping + ETL + data processing)
 
-### Base de données
+ Base de données
 
 * 🍃 MongoDB
 
-### DevOps & Infrastructure
+DevOps & Infrastructure
 
 * ☸️ Kubernetes
 * 🔧 Jenkins
@@ -92,9 +92,9 @@ DevOps Layer (Docker + Jenkins + Kubernetes + Monitoring)
 
 ---
 
-## ⚙️ Installation & exécution
+⚙️ Installation & exécution
 
-### 1️⃣ Cloner le projet
+1️⃣ Cloner le projet
 
 ```bash
 git clone https://github.com/your-repo/fuel-carbon-tracking.git
@@ -103,7 +103,7 @@ cd fuel-carbon-tracking
 
 ---
 
-### 2️⃣ Backend (Node.js)
+2️⃣ Backend (Node.js)
 
 ```bash
 cd backend
@@ -113,7 +113,7 @@ npm start
 
 ---
 
-### 3️⃣ Frontend (React)
+ 3️⃣ Frontend (React)
 
 ```bash
 cd frontend
@@ -123,7 +123,7 @@ npm start
 
 ---
 
-### 4️⃣ Service scraping (Python)
+4️⃣ Service scraping (Python)
 
 ```bash
 cd scraping
@@ -133,7 +133,7 @@ python main.py
 
 ---
 
-## 🐳 Docker
+🐳 Docker
 
 ```bash
 docker-compose up --build
@@ -141,7 +141,7 @@ docker-compose up --build
 
 ---
 
-## ☸️ Kubernetes Deployment
+☸️ Kubernetes Deployment
 
 ```bash
 kubectl apply -f k8s/
@@ -155,8 +155,7 @@ Contient :
 * Ingress controller
 
 ---
-
-## 🔁 CI/CD Pipeline (Jenkins)
+ 🔁 CI/CD Pipeline (Jenkins)
 
 Pipeline Jenkins automatisé :
 
@@ -167,8 +166,7 @@ Pipeline Jenkins automatisé :
 5. Deploy sur Kubernetes
 
 ---
-
-## 📡 Scraping & Data ingestion
+📡 Scraping & Data ingestion
 
 Le système collecte automatiquement :
 
@@ -186,7 +184,7 @@ Technologies :
 
 ---
 
-## 🔔 Notifications temps réel
+🔔 Notifications temps réel
 
 Système basé sur :
 
@@ -197,7 +195,7 @@ Système basé sur :
 
 ---
 
-## 📊 Monitoring
+📊 Monitoring
 
 * Logs centralisés
 * Monitoring cluster Kubernetes
@@ -206,7 +204,7 @@ Système basé sur :
 
 ---
 
-## 📁 Structure du projet
+📁 Structure du projet
 
 ```
 project-root/
@@ -227,8 +225,7 @@ project-root/
 ```
 
 ---
-
-## 🎯 Objectifs du projet
+ 🎯 Objectifs du projet
 
 * Réduire la consommation de carburant
 * Optimiser les coûts opérationnels
@@ -236,9 +233,7 @@ project-root/
 * Automatiser le traitement des données
 * Fournir des alertes en temps réel
 
----
-
-## 🚀 Améliorations futures
+ 🚀 Améliorations futures
 
 * IA pour prédiction de consommation fuel
 * Optimisation automatique des routes
@@ -248,14 +243,8 @@ project-root/
 
 ---
 
-## 👨‍💻 Auteur
+👨‍💻 Auteur
 
 Projet développé dans un contexte académique / professionnel pour la gestion intelligente du fuel et de l’empreinte carbone.
-
----
-
-Si tu veux, je peux aussi te faire :
-✅ README version **GitHub pro avec badges CI/CD**
-✅ Diagramme **architecture DevOps (image)**
-✅ Docker + Kubernetes fichiers prêts
-✅ Pipeline Jenkins complet (Jenkinsfile)
+ 
+ 
